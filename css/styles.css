@@ -1,0 +1,43 @@
+@charset "UTF-8"; 
+/* CSS Document */ 
+  
+* { margin:0; padding:0; } 
+  
+body { 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  background: repeat-x #f8f8f8; 
+  color:#d7d7d7; 
+  font-size:25px; 
+  line-height:27px;} 
+
+/*.canvas { 
+  position: absolute; 
+  width:960px; 
+  margin:0 auto;
+  padding-left: 350px; 
+  padding-top:75px;
+  cursor:auto;
+} */
+
+h1{
+  position: relative;
+  text-align: center;
+  top:70px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  color: black;
+}
+
+video#thevideo { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+}
